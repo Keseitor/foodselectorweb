@@ -1,0 +1,118 @@
+html,body {
+    background-color: rgb(232, 232, 232);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: crimson;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerImg {
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    padding-right: 5px;
+}
+
+nav {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+nav h2 {
+    color: white;
+    padding-left: 40px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  rgb(224, 216, 206);
+    font-style: italic;
+}
+
+.infobox {
+    background-color: crimson;
+    margin: 25px 25px 25px 25px;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+#foodFrame {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#newFood {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: crimson;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    border-width: 0px;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 5px 5px rgb(185, 17, 50)
+}
+
+#dishName {
+    font-family: 'Bebas Neue', cursive; 
+    color: crimson;
+    font-size: 45px;
+}
+
+#dishDesc {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+#dishImg {
+    border: none;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.infobox p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+footer {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
